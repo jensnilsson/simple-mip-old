@@ -1,0 +1,22 @@
+{
+  "name": "simplemip",
+  "version": "1.0.0",
+  "description": "Simple MIP Simplex Solver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Simplex",
+    "Mip",
+    "Solver"
+  ],
+  "author": "Jens Nilsson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {}
+}
