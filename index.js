@@ -12,6 +12,8 @@ app.post('/solve', function(req, res) {
     var data = req.body.data;
     try {
       JSON.parse(data);
+
+      
       // TODO: Danger, client data goes into exec -> should have better way to check the incomming data
       const child = child_process.execFile('python', ['./solver.py', data], (err, stdout, stderr) => {
         if (err) throw err;

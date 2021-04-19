@@ -321,6 +321,8 @@ class Solver:
 		for j in range(len(self.tablue[0])-1):
 
 			i = 0
+			# Ok is to protect against invalid state where 
+			# there are two 1 values in same column, which is invalid
 			ok = True
 			x = -1
 
